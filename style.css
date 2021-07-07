@@ -1,0 +1,53 @@
+header {
+    background-color: rgb(126, 131, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body {
+    margin: 0;
+    font-family: "Lobster", cursive;
+}
+nav a {
+    color: rgb(252, 188, 115);
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: skyblue;
+}
+button {
+    padding: 10px 40px;
+    border-radius: 30px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: 20px;
+    font-family: "Lobster";
+    cursor: pointer;
+    transition: 0.5s;
+}
+body {
+    background-color: rgb(126, 131, 255);
+}
+button:hover {
+    background-color: brown;
+    transform: scale(1.1);
+}
+
+div {
+    text-align: center;
+    padding: 300px;
+    background-image:linear-gradient(to top,rgba(0, 0, 0, 0.254), rgba(0, 0, 0, 0.097)),url(bob.jpg);
+    background-size: cover;
+}
+h1{
+    color: cornsilk;
+    font-size: 50px;
+}
+p{
+color: darkblue;
+font-size: 20px;
+font-weight: bold;
+
+
+}
